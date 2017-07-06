@@ -1,0 +1,29 @@
+<idea-plugin version="2">
+    <id>com.github.tommykw</id>
+    <name></name>
+    <version>1.0.0</version>
+    <vendor email="" url=""></vendor>
+
+    <description></description>
+
+    <change-notes></change-notes>
+
+    <idea-version since-build="131"/>
+
+    <application-components>
+    </application-components>
+
+    <project-components>
+    </project-components>
+
+    <actions>
+        <group id="OptimizeResources.CodeMenu.Group" text="Resource Finder" description="Resource Finder">
+            <add-to-group group-id="CodeMenu" anchor="last"  />
+            <action id="OptimizeResources.CodeMenu.Action" class="ResourceFinderAction" text="Resource Finder" description="Resource Finder" />
+        </group>
+    </actions>
+
+    <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+         on how to target different products -->
+    <depends>org.jetbrains.kotlin</depends>
+</idea-plugin>
