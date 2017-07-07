@@ -1,12 +1,16 @@
 <idea-plugin version="2">
     <id>com.github.tommykw</id>
-    <name></name>
+    <name>Resources finder</name>
     <version>1.0.0</version>
-    <vendor email="" url=""></vendor>
+    <vendor email="destinys.lotus.1108mn@gmail.com" url="https://github.com/tommykw/android-resources-finder-plugin"></vendor>
 
-    <description></description>
+    <description><![CDATA[
+      This plugin help you to find resources in your Android project.
+    ]]></description>
 
-    <change-notes></change-notes>
+    <change-notes><![CDATA[
+      1.0.0: Initial release.<br>
+    ]]></change-notes>
 
     <idea-version since-build="131"/>
 
@@ -17,9 +21,9 @@
     </project-components>
 
     <actions>
-        <group id="OptimizeResources.CodeMenu.Group" text="Resource Finder" description="Resource Finder">
+        <group id="ResourceFinder.CodeMenu.Group" text="Resource Finder" description="Resource Finder">
             <add-to-group group-id="CodeMenu" anchor="last"  />
-            <action id="OptimizeResources.CodeMenu.Action" class="ResourceFinderAction" text="Resource Finder" description="Resource Finder" />
+            <action id="ResourceFinder.CodeMenu.Action" class="ResourceFinderAction" text="Resource Finder" description="Resource Finder" />
         </group>
     </actions>
 

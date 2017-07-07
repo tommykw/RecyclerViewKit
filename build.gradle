@@ -21,12 +21,12 @@ targetCompatibility = JavaVersion.VERSION_1_6
 intellij {
     version '2016.1.2'
     plugins = ['Kotlin']
-    pluginName 'Optimize resources plugin'
+    pluginName 'Resources finder plugin'
     alternativeIdePath '/Applications/Android Studio.app'
 
 }
 
-group 'com.github.tommykw.android-optimize-resources-plugin'
+group 'https://github.com/tommykw/android-resources-finder-plugin'
 version '0.0.1'
 
 repositories {
